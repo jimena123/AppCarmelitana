@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B3C33F39238F12F8008F7C36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C33F38238F12F8008F7C36 /* AppDelegate.swift */; };
+		B3C33F3B238F12F8008F7C36 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C33F3A238F12F8008F7C36 /* SceneDelegate.swift */; };
+		B3C33F3D238F12F8008F7C36 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C33F3C238F12F8008F7C36 /* ViewController.swift */; };
+		B3C33F40238F12F8008F7C36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3C33F3E238F12F8008F7C36 /* Main.storyboard */; };
+		B3C33F42238F12F9008F7C36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3C33F41238F12F9008F7C36 /* Assets.xcassets */; };
+		B3C33F45238F12F9008F7C36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3C33F43238F12F9008F7C36 /* LaunchScreen.storyboard */; };
+		B3C33F50238F12F9008F7C36 /* AppCarmelitana_IOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C33F4F238F12F9008F7C36 /* AppCarmelitana_IOSTests.swift */; };
+		B3C33F5B238F12F9008F7C36 /* AppCarmelitana_IOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C33F5A238F12F9008F7C36 /* AppCarmelitana_IOSUITests.swift */; };
+		B3C33F69238F1B44008F7C36 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C33F68238F1B44008F7C36 /* MenuViewController.swift */; };
+		B3C33F6B238F1B68008F7C36 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C33F6A238F1B68008F7C36 /* MenuTableViewCell.swift */; };
+		B3C33F6D238F433D008F7C36 /* HomeOptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C33F6C238F433D008F7C36 /* HomeOptionCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B3C33F4C238F12F9008F7C36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3C33F2D238F12F8008F7C36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3C33F34238F12F8008F7C36;
+			remoteInfo = "AppCarmelitana-IOS";
+		};
+		B3C33F57238F12F9008F7C36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3C33F2D238F12F8008F7C36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3C33F34238F12F8008F7C36;
+			remoteInfo = "AppCarmelitana-IOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B3C33F35238F12F8008F7C36 /* AppCarmelitana-IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AppCarmelitana-IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3C33F38238F12F8008F7C36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B3C33F3A238F12F8008F7C36 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B3C33F3C238F12F8008F7C36 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B3C33F3F238F12F8008F7C36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B3C33F41238F12F9008F7C36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B3C33F44238F12F9008F7C36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B3C33F46238F12F9008F7C36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3C33F4B238F12F9008F7C36 /* AppCarmelitana-IOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AppCarmelitana-IOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3C33F4F238F12F9008F7C36 /* AppCarmelitana_IOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCarmelitana_IOSTests.swift; sourceTree = "<group>"; };
+		B3C33F51238F12F9008F7C36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3C33F56238F12F9008F7C36 /* AppCarmelitana-IOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AppCarmelitana-IOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3C33F5A238F12F9008F7C36 /* AppCarmelitana_IOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCarmelitana_IOSUITests.swift; sourceTree = "<group>"; };
+		B3C33F5C238F12F9008F7C36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3C33F68238F1B44008F7C36 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		B3C33F6A238F1B68008F7C36 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		B3C33F6C238F433D008F7C36 /* HomeOptionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeOptionCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3C33F32238F12F8008F7C36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3C33F48238F12F9008F7C36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3C33F53238F12F9008F7C36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B3C33F2C238F12F8008F7C36 = {
+			isa = PBXGroup;
+			children = (
+				B3C33F37238F12F8008F7C36 /* AppCarmelitana-IOS */,
+				B3C33F4E238F12F9008F7C36 /* AppCarmelitana-IOSTests */,
+				B3C33F59238F12F9008F7C36 /* AppCarmelitana-IOSUITests */,
+				B3C33F36238F12F8008F7C36 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B3C33F36238F12F8008F7C36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3C33F35238F12F8008F7C36 /* AppCarmelitana-IOS.app */,
+				B3C33F4B238F12F9008F7C36 /* AppCarmelitana-IOSTests.xctest */,
+				B3C33F56238F12F9008F7C36 /* AppCarmelitana-IOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3C33F37238F12F8008F7C36 /* AppCarmelitana-IOS */ = {
+			isa = PBXGroup;
+			children = (
+				B3C33F38238F12F8008F7C36 /* AppDelegate.swift */,
+				B3C33F3A238F12F8008F7C36 /* SceneDelegate.swift */,
+				B3C33F3C238F12F8008F7C36 /* ViewController.swift */,
+				B3C33F3E238F12F8008F7C36 /* Main.storyboard */,
+				B3C33F41238F12F9008F7C36 /* Assets.xcassets */,
+				B3C33F43238F12F9008F7C36 /* LaunchScreen.storyboard */,
+				B3C33F46238F12F9008F7C36 /* Info.plist */,
+				B3C33F68238F1B44008F7C36 /* MenuViewController.swift */,
+				B3C33F6A238F1B68008F7C36 /* MenuTableViewCell.swift */,
+				B3C33F6C238F433D008F7C36 /* HomeOptionCell.swift */,
+			);
+			path = "AppCarmelitana-IOS";
+			sourceTree = "<group>";
+		};
+		B3C33F4E238F12F9008F7C36 /* AppCarmelitana-IOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				B3C33F4F238F12F9008F7C36 /* AppCarmelitana_IOSTests.swift */,
+				B3C33F51238F12F9008F7C36 /* Info.plist */,
+			);
+			path = "AppCarmelitana-IOSTests";
+			sourceTree = "<group>";
+		};
+		B3C33F59238F12F9008F7C36 /* AppCarmelitana-IOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B3C33F5A238F12F9008F7C36 /* AppCarmelitana_IOSUITests.swift */,
+				B3C33F5C238F12F9008F7C36 /* Info.plist */,
+			);
+			path = "AppCarmelitana-IOSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3C33F34238F12F8008F7C36 /* AppCarmelitana-IOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3C33F5F238F12F9008F7C36 /* Build configuration list for PBXNativeTarget "AppCarmelitana-IOS" */;
+			buildPhases = (
+				B3C33F31238F12F8008F7C36 /* Sources */,
+				B3C33F32238F12F8008F7C36 /* Frameworks */,
+				B3C33F33238F12F8008F7C36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AppCarmelitana-IOS";
+			productName = "AppCarmelitana-IOS";
+			productReference = B3C33F35238F12F8008F7C36 /* AppCarmelitana-IOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B3C33F4A238F12F9008F7C36 /* AppCarmelitana-IOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3C33F62238F12F9008F7C36 /* Build configuration list for PBXNativeTarget "AppCarmelitana-IOSTests" */;
+			buildPhases = (
+				B3C33F47238F12F9008F7C36 /* Sources */,
+				B3C33F48238F12F9008F7C36 /* Frameworks */,
+				B3C33F49238F12F9008F7C36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3C33F4D238F12F9008F7C36 /* PBXTargetDependency */,
+			);
+			name = "AppCarmelitana-IOSTests";
+			productName = "AppCarmelitana-IOSTests";
+			productReference = B3C33F4B238F12F9008F7C36 /* AppCarmelitana-IOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B3C33F55238F12F9008F7C36 /* AppCarmelitana-IOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3C33F65238F12F9008F7C36 /* Build configuration list for PBXNativeTarget "AppCarmelitana-IOSUITests" */;
+			buildPhases = (
+				B3C33F52238F12F9008F7C36 /* Sources */,
+				B3C33F53238F12F9008F7C36 /* Frameworks */,
+				B3C33F54238F12F9008F7C36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3C33F58238F12F9008F7C36 /* PBXTargetDependency */,
+			);
+			name = "AppCarmelitana-IOSUITests";
+			productName = "AppCarmelitana-IOSUITests";
+			productReference = B3C33F56238F12F9008F7C36 /* AppCarmelitana-IOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3C33F2D238F12F8008F7C36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "JIMENA LOPEZ";
+				TargetAttributes = {
+					B3C33F34238F12F8008F7C36 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					B3C33F4A238F12F9008F7C36 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = B3C33F34238F12F8008F7C36;
+					};
+					B3C33F55238F12F9008F7C36 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = B3C33F34238F12F8008F7C36;
+					};
+				};
+			};
+			buildConfigurationList = B3C33F30238F12F8008F7C36 /* Build configuration list for PBXProject "AppCarmelitana-IOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B3C33F2C238F12F8008F7C36;
+			productRefGroup = B3C33F36238F12F8008F7C36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3C33F34238F12F8008F7C36 /* AppCarmelitana-IOS */,
+				B3C33F4A238F12F9008F7C36 /* AppCarmelitana-IOSTests */,
+				B3C33F55238F12F9008F7C36 /* AppCarmelitana-IOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3C33F33238F12F8008F7C36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3C33F45238F12F9008F7C36 /* LaunchScreen.storyboard in Resources */,
+				B3C33F42238F12F9008F7C36 /* Assets.xcassets in Resources */,
+				B3C33F40238F12F8008F7C36 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3C33F49238F12F9008F7C36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3C33F54238F12F9008F7C36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3C33F31238F12F8008F7C36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3C33F3D238F12F8008F7C36 /* ViewController.swift in Sources */,
+				B3C33F6D238F433D008F7C36 /* HomeOptionCell.swift in Sources */,
+				B3C33F39238F12F8008F7C36 /* AppDelegate.swift in Sources */,
+				B3C33F3B238F12F8008F7C36 /* SceneDelegate.swift in Sources */,
+				B3C33F69238F1B44008F7C36 /* MenuViewController.swift in Sources */,
+				B3C33F6B238F1B68008F7C36 /* MenuTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3C33F47238F12F9008F7C36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3C33F50238F12F9008F7C36 /* AppCarmelitana_IOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3C33F52238F12F9008F7C36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3C33F5B238F12F9008F7C36 /* AppCarmelitana_IOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B3C33F4D238F12F9008F7C36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3C33F34238F12F8008F7C36 /* AppCarmelitana-IOS */;
+			targetProxy = B3C33F4C238F12F9008F7C36 /* PBXContainerItemProxy */;
+		};
+		B3C33F58238F12F9008F7C36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3C33F34238F12F8008F7C36 /* AppCarmelitana-IOS */;
+			targetProxy = B3C33F57238F12F9008F7C36 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B3C33F3E238F12F8008F7C36 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3C33F3F238F12F8008F7C36 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B3C33F43238F12F9008F7C36 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3C33F44238F12F9008F7C36 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3C33F5D238F12F9008F7C36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B3C33F5E238F12F9008F7C36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3C33F60238F12F9008F7C36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 446H7P445J;
+				INFOPLIST_FILE = "AppCarmelitana-IOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LiturgiaCarmelitana-IOS.AppCarmelitana-IOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B3C33F61238F12F9008F7C36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 446H7P445J;
+				INFOPLIST_FILE = "AppCarmelitana-IOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LiturgiaCarmelitana-IOS.AppCarmelitana-IOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B3C33F63238F12F9008F7C36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 446H7P445J;
+				INFOPLIST_FILE = "AppCarmelitana-IOSTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LiturgiaCarmelitana-IOS.AppCarmelitana-IOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppCarmelitana-IOS.app/AppCarmelitana-IOS";
+			};
+			name = Debug;
+		};
+		B3C33F64238F12F9008F7C36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 446H7P445J;
+				INFOPLIST_FILE = "AppCarmelitana-IOSTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LiturgiaCarmelitana-IOS.AppCarmelitana-IOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppCarmelitana-IOS.app/AppCarmelitana-IOS";
+			};
+			name = Release;
+		};
+		B3C33F66238F12F9008F7C36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 446H7P445J;
+				INFOPLIST_FILE = "AppCarmelitana-IOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LiturgiaCarmelitana-IOS.AppCarmelitana-IOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AppCarmelitana-IOS";
+			};
+			name = Debug;
+		};
+		B3C33F67238F12F9008F7C36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 446H7P445J;
+				INFOPLIST_FILE = "AppCarmelitana-IOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LiturgiaCarmelitana-IOS.AppCarmelitana-IOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AppCarmelitana-IOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3C33F30238F12F8008F7C36 /* Build configuration list for PBXProject "AppCarmelitana-IOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3C33F5D238F12F9008F7C36 /* Debug */,
+				B3C33F5E238F12F9008F7C36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3C33F5F238F12F9008F7C36 /* Build configuration list for PBXNativeTarget "AppCarmelitana-IOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3C33F60238F12F9008F7C36 /* Debug */,
+				B3C33F61238F12F9008F7C36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3C33F62238F12F9008F7C36 /* Build configuration list for PBXNativeTarget "AppCarmelitana-IOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3C33F63238F12F9008F7C36 /* Debug */,
+				B3C33F64238F12F9008F7C36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3C33F65238F12F9008F7C36 /* Build configuration list for PBXNativeTarget "AppCarmelitana-IOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3C33F66238F12F9008F7C36 /* Debug */,
+				B3C33F67238F12F9008F7C36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3C33F2D238F12F8008F7C36 /* Project object */;
+}
